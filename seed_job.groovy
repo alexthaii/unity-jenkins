@@ -1,0 +1,3 @@
+freeStyleJob('seed_job'){
+
+}
