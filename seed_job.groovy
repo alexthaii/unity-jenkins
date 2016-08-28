@@ -5,6 +5,7 @@ freeStyleJob('seed_job'){
                 name('unity-jenkins github')
                 url('https://github.com/alexthaii/unity-jenkins.git')
             }
+        }    
     }
 
     triggers {
