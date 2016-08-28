@@ -12,5 +12,9 @@ freeStyleJob('seed_job'){
         githubPush()
     }
 
-    dslFile('seed_job.groovy')
+    steps {
+        dsl {
+             dsl(['seed_job.groovy'])
+        }
+    }
 }
