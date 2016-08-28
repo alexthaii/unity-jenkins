@@ -13,8 +13,6 @@ freeStyleJob('seed_job'){
     }
 
     steps {
-        dsl {
-             dsl(['seed_job.groovy'], 'DELETE')
-        }
+		dsl(['seed_job.groovy'], 'DELETE')
     }
 }
